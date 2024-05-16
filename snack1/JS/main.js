@@ -1,8 +1,7 @@
 'use strict';
 
-let a = prompt();
-let b = prompt();
-
+const a = +prompt();
+const b = +prompt();
 
 if (a > b) {
     console.log(a);
