@@ -10,6 +10,6 @@ if (a > b) {
 else if (a < b) {
     console.log(b);
 }
-else {
+else if (a === b) {
     console.log(a, b)
 }
