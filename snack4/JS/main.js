@@ -4,7 +4,7 @@
 const invitati = ["aldo", "giovanni", "giacomo"];
 
 //chiediamo il nome all'utente, inizializzando una variabile dedicata
-const nome = prompt("come ti chiami?");
+const nome = prompt("come ti chiami?").toLowerCase();
 
 //con il metodo includes dell'oggetto array verifichiamo se il nome è incluso
 if (invitati.includes(nome)) {
