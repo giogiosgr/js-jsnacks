@@ -20,6 +20,7 @@ for (let i = 1; i <= 3; i++) {
         alert("Attenzione, hai sprecato un tentativo con un input non valido");
         //quindi l'input stesso viene reso un valore nullo
     }
+    //se abbiamo indovinato, la variabile win diventa true, e usciamo dal ciclo
     if (guess === randomNumber) {
         win = true;
         break;
