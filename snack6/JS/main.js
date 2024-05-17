@@ -18,7 +18,6 @@ for (let i = 1; i <= 3; i++) {
     //condizione di controllo dell'input
     if (isNaN(guess) || guess <= 0 || guess > 10) {
         alert("Attenzione, hai sprecato un tentativo con un input non valido");
-        //quindi l'input stesso viene reso un valore nullo
     }
     //se abbiamo indovinato, la variabile win diventa true, e usciamo dal ciclo
     if (guess === randomNumber) {
