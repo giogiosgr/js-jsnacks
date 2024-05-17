@@ -3,6 +3,8 @@
 const a = +prompt();
 const b = +prompt();
 
+//logica if/else
+
 if (a > b) {
     console.log(a);
 }

@@ -3,7 +3,7 @@
 //creaiamo l'array con la lista degli invitati (elementi di tipo string)
 const invitati = ["aldo", "giovanni", "giacomo"];
 
-//chiediamo il nome all'utente, inizializzando una variabile dedicata
+//chiediamo il nome all'utente, inizializzando una variabile dedicata, trasformata in lowercase
 const nome = prompt("come ti chiami?").toLowerCase();
 
 //con il metodo includes dell'oggetto array verifichiamo se il nome è incluso
