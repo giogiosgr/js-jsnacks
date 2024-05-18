@@ -1,10 +1,10 @@
 'use strict';
 
 /*
-Per la logica, ho pensato di non usare un array che contenga ogni cifra inserita fino all'ipotetica fine della memoria, 
-ma permettere che teoricamente il programma possa continuare all'infinito finché non si inseriscono due numeri uguali 
-(o input non valido). Quindi ho usato un array di lunghezza due che permetta il confronto unicamente tra le 
-ultime due cifre inserite, memorizzando man mano l'input nella prima o nella seconda posizione, 
+Per la logica, ho pensato di integrare un array, ma di non usare un array che contenga ogni cifra inserita fino all'ipotetica 
+fine della memoria, ma permettere che teoricamente il programma possa continuare all'infinito finché non si inseriscono 
+due numeri uguali (o input non valido). Quindi ho usato un array di lunghezza due che permetta il confronto 
+unicamente tra le ultime due cifre inserite, memorizzando man mano l'input nella prima o nella seconda posizione, 
 a seconda se il contatore del ciclo sia pari o dispari (resto del modulo con il 2). Avremo così l'indice dell'array
 nell'espressione di assegnazione del valore di input per ogni iterazione.
 */
