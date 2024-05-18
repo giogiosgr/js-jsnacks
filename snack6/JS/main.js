@@ -16,7 +16,7 @@ let win = false;
 for (let i = 1; i <= 3; i++) {
     guess = parseInt(prompt(`sfida la fortuna, ${i}° tentativo`));
     //condizione di controllo dell'input
-    if (isNaN(guess) || guess <= 0 || guess > 10) {
+    if (isNaN(guess) || guess < 0 || guess > 10) {
         alert("Attenzione, hai sprecato un tentativo con un input non valido");
     }
     //se abbiamo indovinato, la variabile win diventa true, e usciamo dal ciclo
