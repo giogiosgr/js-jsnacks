@@ -7,7 +7,7 @@
 let guess = 0;
 
 //inizializzo variabile che conterrà il numero generato randomicamente
-let randomNumber = Math.floor(Math.random() * 10) + 1;
+let randomNumber = Math.floor(Math.random() * 11);
 
 //variabile booleana che conserverà l'informazione di vincita o meno
 let win = false;
